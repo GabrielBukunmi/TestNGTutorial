@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Login Validation">
+	<!-- SUITE -TEST -CLASS-METHOD- -->
+	<!-- if you want to run tests in parallel
+	we can do - <suite name="Login Validation" parallel="tests" thread-count="2"
+	where thread-count is the number of test that should run in parallel
+	there is no real difference in the output but just in the test execution time -->
+	<listeners>
+	<listener class-name="test.Listeners"/>
+	</listeners>
+	<test name="Login TestCases">
+		<parameter name="URL" value="https//rahulshettyacademy.com" />
+		<classes>
+			<class name="test.day1"></class>
+			<class name="test.day2"></class>
+			<class name="test.day3" />
+			<class name="test.day4" />
+			<class name="test.DataproviderwithMultidimesionalArray" />
+
+		</classes>
+
+	</test>
+
+	<test name="Logout Test Case">
+		<!-- Exclude method is used to prevent a test case from running -->
+		<classes>
+			<class name="test.day3">
+				<methods>
+					<exclude name="Demo3"></exclude>  <!-- Demo3 is the name of the test case -->
+					<!--the name of the method.* as regular expression can be used to exclude 
+						anything starting with the name e.g Demo.* -->
+				</methods>
+			</class>
+
+		</classes>
+
+	</test>
+</suite>
+ 
+	
+

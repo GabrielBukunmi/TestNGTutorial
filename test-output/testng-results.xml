@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="6" total="9" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-05-17T08:10:22 WAT" name="Login Validation" finished-at="2022-05-17T08:10:22 WAT" duration-ms="64">
+    <groups>
+      <group name="smoke">
+        <method signature="day2.Demo2()[pri:0, instance:test.day2@10e92f8f]" name="Demo2" class="test.day2"/>
+        <method signature="day3.Demo4()[pri:0, instance:test.day3@7ce3cb8e]" name="Demo4" class="test.day3"/>
+        <method signature="day4.demo6()[pri:0, instance:test.day4@22a637e7]" name="demo6" class="test.day4"/>
+      </group> <!-- smoke -->
+    </groups>
+    <test started-at="2022-05-17T08:10:22 WAT" name="Run few test cases" finished-at="2022-05-17T08:10:22 WAT" duration-ms="64">
+      <class name="test.day4">
+        <test-method signature="demo6()[pri:0, instance:test.day4@22a637e7]" started-at="2022-05-17T08:10:22 WAT" name="demo6" finished-at="2022-05-17T08:10:22 WAT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- demo6 -->
+      </class> <!-- test.day4 -->
+      <class name="test.day2">
+        <test-method signature="Demo2()[pri:0, instance:test.day2@10e92f8f]" started-at="2022-05-17T08:10:22 WAT" name="Demo2" finished-at="2022-05-17T08:10:22 WAT" duration-ms="6" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Demo2 -->
+      </class> <!-- test.day2 -->
+      <class name="test.day3">
+        <test-method signature="Demo4()[pri:0, instance:test.day3@7ce3cb8e]" started-at="2022-05-17T08:10:22 WAT" name="Demo4" finished-at="2022-05-17T08:10:22 WAT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Demo4 -->
+      </class> <!-- test.day3 -->
+    </test> <!-- Run few test cases -->
+  </suite> <!-- Login Validation -->
+</testng-results>
